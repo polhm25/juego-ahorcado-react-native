@@ -8,8 +8,8 @@ export default function Marcador({ victorias, derrotas }) {
     let porcentajeDerrotas = 0
 
     if (total > 0) {
-        porcentajeVictorias = (victorias * 100) / total
-        porcentajeDerrotas = (derrotas * 100) / total
+        porcentajeVictorias = Math.floor((victorias * 100) / total)
+        porcentajeDerrotas = Math.floor((derrotas * 100) / total)
     }
 
     return (

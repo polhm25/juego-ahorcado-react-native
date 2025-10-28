@@ -11,8 +11,9 @@ export default function Tecla({ letra, pulsarLetra, usada }) {
                 }
             }}
             style={[styles.contenedor, usada ? styles.contenedorDeshabilitado : styles.contenedor]}
+            disabled={usada}
         >
-            <Text style={styles.texto}>{letra}</Text>
+            <Text style={[styles.texto, usada ? styles.textoDeshabilitado : styles.texto]}>{letra}</Text>
         </Pressable>
     )
 }
@@ -38,5 +39,8 @@ const styles = StyleSheet.create({
         fontSize: 22,
         color: '#333',
         fontWeight: '600',
+    },
+    textoDeshabilitado: {
+        color: '#999',
     },
 })
