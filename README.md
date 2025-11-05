@@ -85,13 +85,14 @@ The Hangman game follows these mechanics:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/juego-ahorcado-react-native.git
+   git clone https://github.com/polhm25/juego-ahorcado-react-native.git
    cd juego-ahorcado-react-native/otro
    ```
 
 2. **Install dependencies:**
    ```bash
    npm install
+   
    ```
 
 ### Running the Application
@@ -210,7 +211,6 @@ When you launch the app, you'll see:
 
 ```
 juego-ahorcado-react-native/
-├── otro/
 │   ├── App.tsx                 # Main game component (state & logic)
 │   ├── components/
 │   │   ├── Horca.tsx          # Hangman visual display
@@ -234,7 +234,6 @@ juego-ahorcado-react-native/
 │   ├── tsconfig.json          # TypeScript configuration
 │   ├── index.ts               # Entry point
 │   └── node_modules/          # Dependencies (generated)
-├── CLAUDE.md                  # Claude Code guidance
 └── README.md                  # This file
 ```
 
@@ -249,8 +248,6 @@ juego-ahorcado-react-native/
 | **Marcador.tsx** | Shows win/loss counters with percentage calculations |
 | **Funciones.ts** | Game utilities: random word selection, display generation, letter matching |
 | **palabras.json** | Word database organized by 23 categories |
-
-## Technical Details
 
 ### Technology Stack
 
@@ -300,31 +297,6 @@ realizarIntento(palabra, display, letra) → { actualizado, display }
 - Converted to uppercase during gameplay
 - Categories: Naturaleza, Hogar, Países, Coches, Informática, Animales, Vida, mitología, Palabras extrañas, Salud, Deportes, Hobbies, Cocina, Futbol, El cosmos, Música, Cine, Star Wars, Frikadas, Videojuegos, and more
 
-## Word Categories
-
-The game includes words from 23 diverse categories:
-
-| Category | Example Words |
-|----------|---------------|
-| **Naturaleza** | árbol, río, montaña, bosque, volcán |
-| **Hogar** | cocina, silla, mesa, puerta, ventana |
-| **Países** | argentina, brasil, méxico, japón, españa |
-| **Coches** | motor, rueda, volante, transmisión, turbo |
-| **Informática** | computadora, código, software, algoritmo, servidor |
-| **Animales** | perro, gato, elefante, tigre, ballena |
-| **Vida** | amor, familia, amistad, felicidad, sueño |
-| **Mitología** | dios, héroe, dragón, titán, fénix |
-| **Deportes** | fútbol, tenis, baloncesto, natación, boxeo |
-| **Hobbies** | lectura, pintura, fotografía, cocina, música |
-| **Cocina** | sartén, cuchillo, olla, horno, receta |
-| **Futbol** | balón, portería, gol, penal, estadio |
-| **El cosmos** | estrella, planeta, galaxia, universo, astronauta |
-| **Música** | nota, ritmo, guitarra, piano, canción |
-| **Cine** | película, director, actor, guion, estreno |
-| **Star Wars** | jedi, sith, lightsaber, yoda, millenniumfalcon |
-| **Frikadas** | manga, anime, cosplay, videojuego, superhéroe |
-| **Videojuegos** | jugador, nivel, misión, combate, exploración |
-| *And 5 more!* | ... |
 
 ## Development Notes
 
@@ -333,10 +305,6 @@ The game includes words from 23 diverse categories:
 - **Portrait Orientation:** Locked to portrait mode for optimal UX
 - **No External Styling:** Uses only React Native built-in components
 - **Minimal Dependencies:** Only Expo, React, and React Native
-
-## Getting Help
-
-For more detailed development guidance, see [CLAUDE.md](CLAUDE.md) which provides architecture overview and development commands.
 
 ## Language Note
 
@@ -347,12 +315,3 @@ This project uses **Spanish** for its game interface, including:
 
 This makes it ideal for Spanish language learners or native Spanish speakers.
 
----
-
-## License
-
-This project is provided as-is for educational purposes.
-
----
-
-**¡Que disfrutes el Juego Ahorcado!** 🎮
