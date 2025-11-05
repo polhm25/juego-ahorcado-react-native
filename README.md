@@ -86,7 +86,7 @@ The Hangman game follows these mechanics:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/polhm25/juego-ahorcado-react-native.git
-   cd juego-ahorcado-react-native/otro
+   cd juego-ahorcado-react-native
    ```
 
 2. **Install dependencies:**
